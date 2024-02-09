@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
+
+  <link type="image/x-icon" href="/images/favicon.ico" rel="shortcut icon">
+  <link type="Image/x-icon" href="/images/favicon.ico" rel="icon">
+  <!-- fancyapps  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+  <meta name="description" content="Текст" />
+  <meta name="keywords" content="Текст" />
+
+  <title>title</title>
+  <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+    crossorigin="anonymous"></script>
+
+  <style>
+    #myCarousel {
+      --f-carousel-spacing: 10px;
+      --f-carousel-slide-width: 20%;
+    }
+
+    #myCarousel .f-carousel__slide {
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!------ menu ---------->
+  <div class="bg-header">
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="menu__logo" src="/images/logo.svg" alt="" max-width="210px" height="auto">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link ws-no" aria-current="page" href="#service">Усулуги</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#comments">Отзывы</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts">Контакты</a>
+            </li>
+            <li class="nav-item mr-0">
+              <a class="nav-link tel" href="tel:+79810076272">+7 (981) 007-62-72</a>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn-main" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Записаться
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="container">
+      <div class="row">
+        <h1 class="caption-h1 mt-header">O.K.nails <br>
+          <span>Студия здоровых ногтей</span>
+        </h1>
+        <p class="text-37">Быстро <span>.</span> Профессионально <span>.</span> Безопасно</p>
+      </div>
+    </div>
+    
+
+
+  </div>
+
+
+
+  <!----- end header --------->
+
+
+
+  <!------ main ---------->
+
+  <div class="container py-5">
+    <div class="row">
+
+      <h2 class="cap-32 col-12">Услуги студии</h2>
+
+      <div class="col-md-3">
+        <a class="services-link" href="#" title="Уход за кожей">
+          <img class="services-img" src="/images/services/1.jpg" alt="Уход за кожей">
+          <p class="services-cap">Уход за кожей</p>
+        </a>
+      </div>
+
+      <div class="col-md-3">
+        <a class="services-link" href="#" title="Маникюр">
+          <img class="services-img" src="/images/services/2.jpg" alt="Маникюр">
+          <p class="services-cap">Маникюр</p>
+        </a>
+      </div>
+
+      <div class="col-md-3">
+        <a class="services-link" href="#" title="Педикюр">
+          <img class="services-img" src="/images/services/3.jpg" alt="Педикюр">
+          <p class="services-cap">Педикюр</p>
+        </a>
+      </div>
+
+      <div class="col-md-3">
+        <a class="services-link" href="#" title="Все услуги">
+          <img class="services-img" src="/images/services/4.jpg" alt="Все услуги">
+          <p class="services-cap">все услуги</p>
+        </a>
+      </div>
+
+      <div class="col-12 text-center">
+        <p class="services-text">Мы заботимся о здоровье наших клиентов, поэтому все инструменты проходят этап
+          дезинфекции и стерилизации. Используем в работе сертифицированные материалы, потому что долговременное
+          покрытие должно быть безопасным. Регулярно повышаем свою квалификацию, чтобы оставаться в тренде.</p>
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+  <div class="container py-5">
+    <div class="row">
+      <h2 class="cap-32 col-12">Наши работы</h2>
+
+
+      <div class="f-carousel" id="myCarousel">
+        <div class="f-carousel__slide">
+          <a class="job-img-container" href="/images/jobs/1.jpg" data-fancybox="video-gallery">
+            <div class="job-img-overlay"></div>
+            <img class="img-fluid job-img" src="/images/jobs/1.jpg" alt="Наши работы">
+          </a>
+        </div>
+        <div class="f-carousel__slide">
+          <a class="job-img-container" href="/images/jobs/2.jpg" data-fancybox="video-gallery">
+            <div class="job-img-overlay"></div>
+            <img class="img-fluid job-img" src="/images/jobs/2.jpg" alt="Наши работы">
+          </a>
+        </div>
+        <div class="f-carousel__slide">
+          <a class="job-img-container" href="/images/jobs/3.jpg" data-fancybox="video-gallery">
+            <div class="job-img-overlay"></div>
+            <img class="img-fluid job-img" src="/images/jobs/3.jpg" alt="Наши работы">
+          </a>
+        </div>
+        <div class="f-carousel__slide">
+          <a class="job-img-container" href="/images/jobs/4.jpg" data-fancybox="video-gallery">
+            <div class="job-img-overlay"></div>
+            <img class="img-fluid job-img" src="/images/jobs/4.jpg" alt="Наши работы">
+          </a>
+        </div>
+        <div class="f-carousel__slide">
+          <a class="job-img-container" href="/images/jobs/5.jpg" data-fancybox="video-gallery">
+            <div class="job-img-overlay"></div>
+            <img class="img-fluid job-img" src="/images/jobs/5.jpg" alt="Наши работы">
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container py-5">
+    <div class="row">
+
+      <h2 class="cap-32 col-12">Отзывы клиентов</h2>
+
+      <div class="col-md-4">
+        <div class="comments_block">
+          <div class="comments_user">
+            <img src="/images/comments/1.png" alt="Фото клиента">
+            <div>
+              <p class="comments_user_name">Ксения М.</p>
+              <p class="comments_user_date">11 янв 2024 в 20:35</p>
+            </div>
+          </div>
+          <p>Оля- прекрасный мастер, делающий свою работу аккуратно, профессионально и качественно. Время, проведенное в процессе, летит незамет...</p>
+          <a class="comments_block_link" href="https://vk.com/o.k.nailsstudio" target="_blank" rel="noopener noreferrer">Читать полный отзыв ВКонтакте</a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="comments_block">
+          <div class="comments_user">
+            <img src="/images/comments/2.png" alt="Фото клиента">
+            <div>
+              <p class="comments_user_name">Надежда К.</p>
+              <p class="comments_user_date">20 янв 2024 в 13:40</p>
+            </div>
+          </div>
+          <p>Оля- прекрасный мастер, делающий свою работу аккуратно, профессионально и качественно. Время, проведенное в процессе, летит незамет..</p>
+          <a class="comments_block_link" href="https://vk.com/o.k.nailsstudio" target="_blank" rel="noopener noreferrer">Читать полный отзыв ВКонтакте</a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="comments_block">
+          <div class="comments_user">
+            <img src="/images/comments/3.png" alt="Фото клиента">
+            <div>
+              <p class="comments_user_name">Марина У.</p>
+              <p class="comments_user_date">02 фев 2024 в 10:30</p>
+            </div>
+          </div>
+          <p>Оля- прекрасный мастер, делающий свою работу аккуратно, профессионально и качественно. Время, проведенное в процессе, летит незамет..</p>
+          <a class="comments_block_link" href="https://vk.com/o.k.nailsstudio" target="_blank" rel="noopener noreferrer">Читать полный отзыв ВКонтакте</a>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+
+
+
+  <!-- footer -->
+  <div class="container footer py-5">
+    <div class="row">
+      <div class="col-md-6">
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac248470675a01c7268629fa70e0209ea9f9003aad30989fc5e9e2efbd6d84d13&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+      </div>
+
+      <div class="col-md-6">
+        <h2 class="cap-32">Контакты студии</h2>
+        <a href="https://vk.com/o.k.nailsstudio" target="_blank" rel="noopener noreferrer"><img class="vk" src="/images/vk.svg" alt="ВКонтакте"> Группа ВКонтакте</a>
+        <p>Загребский бульвар, 33, Санкт-Петербург</p>
+        <a class="tel" href="tel:+79810076272">+7 (981) 007-62-72</a>
+        <button type="button" class="btn btn-main" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Записаться
+        </button>
+      </div>
+
+
+
+</div>
+</div>
+
+
+
+
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Запустите демо модального окна
+  </button>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">ОБРАТНАЯ СВЯЗЬ</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+          <!-- form -->
+          <form class="form" action="#" method="POST">
+            <input type="hidden" name="project_name" value="mehtiev-pravo.ru">
+            <input type="hidden" name="admin_email" value="mekhtiev.ilya@yandex.ru">
+            <input type="hidden" name="form_subject" value="Заявка с сайта">
+
+            <div class="input_grid">
+              <input class="form-control" type="text" name="fio" placeholder="Ваше имя">
+              <br>
+              <input class="form-control" type="text" name="tel" placeholder="8 (____) ___-__-__" required>
+              <br><br>
+              <button type="button" class="btn btn-warning btn__yell-wh" data-bs-dismiss="modal">Закрыть</button>
+              <button type="submit" class="btn btn-warning btn__wh">Отправить</button>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <!-- Подключение Bootstrap 5 JavaScript -->
+  <script src="/bootstrap/bootstrap.bundle.min.js"></script>
+  <!-- Подключение Popper.js 2 -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-vrE9p8Ii6+2FwKmKQgMKoGhZjv1j8KeW1NO9sHTfFb8gVq7y1L7rK1jJ+L3q2v4x"
+    crossorigin="anonymous"></script>
+
+  <!-- fancybox -->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+  <script src="/js/main.js"></script>
+  <!-- form -->
+  <script src="/js/mail.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <script>
+    const container = document.getElementById("myCarousel");
+    const options = { infinite: false };
+
+    new Carousel(container, options);
+  </script>
+
+  <script>
+    Fancybox.bind('[data-fancybox]', {
+      // Custom options
+    });    
+  </script>
+
+
+</body>
+
+</html>

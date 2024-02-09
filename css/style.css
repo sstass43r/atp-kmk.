@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Istok+Web:wght@400;700&display=swap");
+* {
+  font-family: "Istok Web", sans-serif;
+}
+
+body {
+  background: rgb(236, 242, 236) !important;
+}
+
+.navbar,
+.footer {
+  font-family: "Inter", sans-serif;
+}
+
+/* ------- menu ---------- */
+.navbar {
+  width: 90%;
+  border-radius: 120px;
+  margin: 0 auto;
+}
+
+.menu__logo {
+  max-width: 180px;
+  height: auto;
+  width: 100%;
+}
+
+.btn-main {
+  border-radius: 10px;
+  background: rgb(99, 129, 112);
+  width: 200px;
+  height: 40px;
+  color: rgb(255, 255, 255);
+}
+
+.btn-main:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(99, 129, 112);
+}
+
+/* ------------- header --------------*/
+.bg-header {
+  background-image: url(/images/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.mt-header {
+  margin-top: 29% !important;
+}
+
+.caption-h1 {
+  font-size: 74px;
+  font-weight: 400;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+.caption-h1 span {
+  font-size: 26px;
+  line-height: 50%;
+}
+
+.text-37 {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 37px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.text-37 span {
+  position: relative;
+  top: -7px;
+}
+
+/* -------- main ------------ */
+.cap-32 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 46px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.services-link {
+  text-decoration: none;
+}
+
+.services-img {
+  border-radius: 20px;
+  box-shadow: 0px 0px 4px 1px rgb(216, 216, 216);
+}
+
+.services-img:hover {
+  box-shadow: 0px 0px 5px 5px rgb(216, 216, 216);
+}
+
+.services-cap {
+  color: rgb(45, 72, 43);
+  font-size: 16px;
+  line-height: 23px;
+  text-transform: uppercase;
+  bottom: 30px;
+  position: relative;
+  left: 10px;
+}
+
+.services-cap:hover {
+  color: rgb(45, 72, 43);
+  font-weight: 600;
+}
+
+.services-text {
+  max-width: 630px;
+  margin: 0 auto;
+}
+
+.job-img {
+  border-radius: 20px;
+}
+
+.job-img-container {
+  position: relative;
+  display: inline-block;
+}
+
+.job-img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(67, 80, 66, 0.6);
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  border-radius: 20px;
+}
+
+.job-img-container:hover .job-img-overlay {
+  opacity: 0;
+}
+
+.comments_block {
+  border-radius: 20px;
+  background: rgb(255, 255, 255);
+  padding: 21px;
+}
+
+.comments_user {
+  display: flex;
+}
+.comments_user img {
+  width: 48px;
+  height: 48px;
+  margin-right: 20px;
+}
+
+.comments_user_name {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.comments_user_date {
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+
+.comments_user {
+  margin-bottom: 10px;
+}
+
+.comments_block_link {
+  color: rgb(0, 106, 139);
+  font-size: 16px;
+  line-height: 140%;
+  text-decoration: none;
+}
+
+.comments_block_link {
+  color: rgb(1, 47, 61);
+}
+
+/* footer */
+/*  font-family: 'Inter', sans-serif; */
+/* carousel *//*# sourceMappingURL=style.css.map */
