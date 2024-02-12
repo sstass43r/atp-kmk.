@@ -172,14 +172,37 @@ text-align: center;
   line-height: 140%;
   text-decoration: none;
 }
-.comments_block_link{
+.comments_block_link:hover{
   color: rgb(1, 47, 61);
 }
 
 
 /* footer */
+.footer{
+  color: rgb(45, 58, 49);
+}
+.vk-link{  
+font-size: 14px;
+font-weight: 400;
+line-height: 350%;
+color: rgb(45, 58, 49);
+text-decoration: none;
+}
+.vk-link:hover{  
+  color: rgb(0, 0, 0);
+  }
+.foorer__tel{
+  text-decoration: none;
+  line-height: 350%;
+  color: rgb(45, 58, 49);
+  font-size: 14px;
+}
+.tel:hover{
+  color: rgb(0, 0, 0);
+}
 
-/*  font-family: 'Inter', sans-serif; */
+/* end footer */
+
 
 
 
